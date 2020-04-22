@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 
 // import routes
-const userRoutes = require('./routes/user')
+const userRoutes = require('./routes/user');
 
 require('dotenv').config();
 

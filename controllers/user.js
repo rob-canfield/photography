@@ -1,6 +1,6 @@
 const User = require('../models/user')
 
-exports.singup = (request, response) => {
+exports.signup = (request, response) => {
     console.log("request.body", request.body);
     const user =  new User(request.body);
     user.save((error, user) => {
