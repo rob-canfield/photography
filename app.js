@@ -22,8 +22,9 @@ mongoose.connect(
 //     console.log(`DB connection error: ${error.message}`)
 // });
 
+// middlewares
 app.use(morgan('dev'));
-app.use(bodyParser.json);
+app.use(bodyParser.json());
 app.use(cookieParser());
 
 // routes middleware
